@@ -4,17 +4,33 @@
 .bg-green{
     background-color: rgb(58, 154, 58)
 }
+.bg-grey{
+    background-color: rgb(234, 238, 238);
+}
+.bg-services{
+    
+    background-color: rgb(229 253 242);
+}
 .ff-1{
     font-family: 'Mukta', sans-serif;
 }
 .fc-1{
     color: rgb(58, 154, 58)!important;
 }
+.fs-7{
+    font-size: 13px;
+}
 .p-12{
     padding: 12px;
 }
 .w-20{
     width: 30%;
+}
+.mt-8{
+    margin-top: 8rem;
+}
+.mb-8{
+    margin-bottom: 8rem;
 }
 .top-primary-nav a img{
     width: 120px;
@@ -33,6 +49,76 @@ font-family: 'Mukta', sans-serif;
 }
 .appointment-wrapper{
 left: 13%;
-top: 30%;
+top: 20%;
 font-family: 'Mukta', sans-serif;
 }
+
+.info-wrapper button span{
+    text-align: initial; 
+    margin:  6px ;
+}
+.info-wrapper button i{
+    margin: 12px;
+}
+.info-wrapper button span p{
+    font-size: 14px; 
+    margin: 0;
+    margin-bottom: 8px;
+}
+.info-wrapper button span h4{
+    font-size: 22px;
+    margin: 0;
+}
+.overlay{
+    position: absolute;
+    top: 29%;
+    right: 7%;
+    width: 350px;
+}
+.details-box ul li{
+    list-style-type: none;
+    margin: 12px 0;
+}
+.details-box ul li i{
+color: rgb(124, 212, 124)!important;
+margin-right: 12px;
+font-size: 20px;
+font-weight: bold;
+}
+.services-wrapper .container p{
+    text-align: center;
+}
+.services-wrapper .container h2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.card{
+    border: 0;
+}
+.card img{
+    width: 80px;
+}
+.card h5{
+    text-align: center;
+}
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-4">
+  <img src="./assets/img/services/1.png" alt="">
+  <h4>Outpatient Surgery</h4>
+  <p>lorem ipsum is simple dummy text of the printing typesetting industry.lorem iosum</p>
+  </div> <!-- /.col-md-4 -->
+  <div class="col-md-4">
+
+  </div> <!-- /.col-md-4 -->
+  <div class="col-md-4">
+
+  </div> <!-- /.col-md-4 -->
+  </div> <!-- /.row --> 
+
+    
