@@ -1,0 +1,38 @@
+.bg-main{
+    background-color: rgb(111 207 186);
+}
+.bg-green{
+    background-color: rgb(58, 154, 58)
+}
+.ff-1{
+    font-family: 'Mukta', sans-serif;
+}
+.fc-1{
+    color: rgb(58, 154, 58)!important;
+}
+.p-12{
+    padding: 12px;
+}
+.w-20{
+    width: 30%;
+}
+.top-primary-nav a img{
+    width: 120px;
+}
+.top-primary-nav ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+.top-primary-nav ul li a{
+text-decoration: none;
+text-transform: uppercase;
+color: black;
+font-size: 13px;
+font-weight: bold;
+font-family: 'Mukta', sans-serif;
+}
+.appointment-wrapper{
+left: 13%;
+top: 30%;
+font-family: 'Mukta', sans-serif;
+}
