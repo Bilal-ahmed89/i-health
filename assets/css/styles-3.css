@@ -1,0 +1,11 @@
+.article-card h4{
+    font-size: 18px;
+}
+.article-card p{
+    text-align: center!important;
+}
+.date{
+    position:absolute;
+    bottom: 5%;
+    right: 3%;
+}

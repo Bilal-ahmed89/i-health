@@ -1,5 +1,19 @@
-.overlay{
+.uppper-layer{
     position: absolute;
     inset: 0;
-    background-color: rgba(0 ,0 ,0 , 0.6);
+    background-color: rgba(0 ,0 ,0 , 0.6); 
+ }
+
+.location-card:hover{
+    background-color:  rgb(111 207 186); 
+    color: white;
+    position: absolute;
+    top: 20%;
+    
+    width: 28%!important;
+}
+.location-card:hover .icon i{
+   
+    color: white!important;
+   
 }
