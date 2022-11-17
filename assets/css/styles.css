@@ -1,5 +1,5 @@
 .bg-main{
-    background-color: rgb(111 207 186);
+    background-color:rgb(103 199 178);
 }
 .bg-green{
     background-color: rgb(75, 197, 75)
@@ -35,6 +35,9 @@
 .p-12{
     padding: 12px;
 }
+.pe-6{
+    padding-right: 7rem;
+}
 .py-6{
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -64,6 +67,9 @@
 .w-90{
     width: 90%;
 }
+.me-0{
+    margin-right: 0;
+}
 .mt-8{
     margin-top: 8rem;
 }
@@ -80,6 +86,11 @@
 .rounded-4{
     border-radius: 0.5rem;
 }
+.carousel-caption{
+    transform: translate(-50%, -40%)!important;
+        left: 40%!important;
+}
+
 .top-primary-nav a img{
     width: 120px;
 }
@@ -97,8 +108,9 @@ font-family: 'Mukta', sans-serif;
 }
 .appointment-wrapper{
 left: 18%;
-top: 20%;
+ top: 18%;
 font-family: 'Mukta', sans-serif;
+text-align: initial!important;
 }
 
 .info-wrapper button span{
@@ -117,7 +129,7 @@ font-family: 'Mukta', sans-serif;
     font-size: 22px;
     margin: 0;
 }
-.overlay{
+.upper-layer{
     position: absolute;
     top: 29%;
     right: 7%;
@@ -151,11 +163,6 @@ font-weight: bold;
     margin-bottom: 35px;
 }
 
-
-.staff-wrapper .container{
-    
-    
-}
 .staff-wrapper .container p{
     text-align: center;
 }
@@ -338,10 +345,17 @@ font-size: 36px;
  }
 
 
-@media (max-width: 1199.98px) {  }
+@media (max-width: 1199.98px) { 
+   
+ }
 
 
-@media (max-width: 1399.98px) {  }
+@media (min-width: 1399.98px) { 
+    .carousel-caption{
+        transform: translate(-40%, -70%)!important;
+        left: 40%!important;
+    }
+ }
 
 
 

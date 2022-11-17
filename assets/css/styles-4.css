@@ -1,0 +1,53 @@
+.carousel-caption{
+    transform: translate(-50%, -30%);
+    left: 50%;
+}
+.carousel-inner{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    inset: 0 !important;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.service-list{
+  justify-content: space-between;
+}
+.service-list ul li::marker{
+    color: rgb(75, 197, 75);
+    font-size: 24px;
+
+}
+.service-list ul{
+    padding-left: 20px;
+
+}
+.service-list ul li{
+  font-size: 14px;
+  font-weight: bold;
+}
+.service-card .img-wrapper img{
+    width: 85px;
+}
+@media (max-width: 991.98px) { 
+    
+    .emergency-services .container{
+     
+       padding-left: 7rem;
+    } 
+    .emergency-services .container .row .col-lg-4{
+        display: flex;
+        justify-content: center;
+    } 
+    .emergency-details h2{
+      text-align: center;
+    } 
+    .emergency-details p{
+      text-align: center;
+    } 
+    .related-services .container .row .col-lg-6{
+        margin-bottom: 3rem!important;
+    }
+
+    }
+ 

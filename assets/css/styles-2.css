@@ -1,8 +1,15 @@
-.uppper-layer{
+.carousel-item .carousel-caption{
+    transform: translate(-50%, -30%)!important;
+    left: 50%!important;
+}
+.carousel-inner{
+    position: relative;
+}
+.overlay{
     position: absolute;
-    inset: 0;
-    background-color: rgba(0 ,0 ,0 , 0.6); 
- }
+    inset: 0 !important;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
 .location-card:hover{
     background-color:  rgb(111 207 186); 
