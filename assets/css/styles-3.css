@@ -1,6 +1,6 @@
-.carousel-caption{
-    transform: translate(-50%, -30%);
-    left: 50%;
+.carousel-item .carousel-caption{
+    transform: translate(-50%, -30%)!important;
+    left: 50%!important;
 }
 .carousel-inner{
     position: relative;

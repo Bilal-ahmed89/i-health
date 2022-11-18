@@ -13,56 +13,90 @@
     <link rel="stylesheet" href="./assets/css/styles-2.css">
     </head>
   <body>
-    <header class="header w-100">
-        <div class="top-secondary-nav bg-main">
-          <div class="container">
-          <nav class="navbar navbar-light bg-main ">
-            <div class="container-fluid d-flex px-6 py-2 ">
-              <a class="navbar-brand text-white fs-6 ff-1" href="#">Welcome to our Inotura medical</a>
-              <a class="navbar-brand text-white fs-6 ff-1" href="#">Open Hours: Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</a>
+   
+    <header class="header overflow-hidden">
+      <div class="top-secondary-nav bg-main">
+        <div class="container">
+        <nav class="navbar navbar-light bg-main ">
+          <div class="container-fluid d-flex px-6 py-2 ">
+            <a class="navbar-brand text-white fs-6 ff-1" href="#">Welcome to our Inotura medical</a>
+            <a class="navbar-brand text-white fs-6 ff-1 m-0" href="#">Open Hours: Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</a>
+          </div>
+        </nav>
+      </div><!-- /.container -->
+      </div><!-- /.top-secondary-nav -->
+      <div class="top-primary-nav">
+        <div class="container">
+          <nav class="navbar navbar-light p-0">
+            <div class="container-fluid px-6 d-flex align-items-center">
+              <a class="navbar-brand "><img src="./assets/img/logo.PNG" alt=""></a>
+              <ul class="d-flex align-items-center p-0 m-0">
+                <li><a class="fc-1" href="./index.html">HOME</a></li>
+                <li><a href="">PAGES</a></li>
+                <li><a href="./service-details.html">services</a></li>
+                <li><a href="./blog.html">blog</a></li>
+                <li><a href="./contact-us.html">Contact Us </a></li>
+                <li class="me-0"><a class="btn btn-primary bg-transparent border-0 p-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                  <i class="bi bi-list fs-1"></i>
+                </a></li>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                  
+                  <div class="offcanvas-body py-0">
+                    <div class="side-nav-bar w-100 bg-light ff-1" id="sidebar">
+                      <ul class="px-2">
+                        <li><h4 class="bg-main text-white p-2 m-0 d-flex align-items-center">Description <span><button type="button" class="btn-close text-reset ms-6 w-0" data-bs-dismiss="offcanvas" aria-label="Close"></button></span> </h4></li>
+                        
+                        <li><a href="">IHealth and Hospital Network</a></li>
+                        <li><a href="">Vision and Mission</a></li>
+                        <li><a href="">Core leadership</a></li>
+                        <li><a href="">How We Started</a></li>
+                        
+                      </ul>
+                      <ul class="px-2">
+                        <li><h4 class="bg-main text-white p-2 m-0">Our Faculty</h4></li>
+                        <li><a href="">Our Stories</a></li>
+                        <li><a href="">Our International Patners</a></li>
+                        <li><a href="">Annual Report</a></li>
+                        <li><a href="">Our Research</a></li>
+                      </ul>
+                      <ul class="px-2">
+                        <li><h4 class=" bg-main text-white p-2 m-0">Public health</h4></li>
+                        <li><a href="">Public Health Initiatives</a></li>
+                        <li><a href="">Primary Care Program</a></li>
+                        <li><a href="">Blood Center</a></li>
+                        
+                      </ul>
+                      </div><!-- /.side-nav-bar -->
+                  </div>
+                </div>
+                
+                
+              </ul>
             </div>
           </nav>
-        </div><!-- /.container -->
-        </div><!-- /.top-secondary-nav -->
-        <div class="top-primary-nav">
-          <div class="container">
-            <nav class="navbar navbar-light p-0">
-              <div class="container-fluid px-6 d-flex align-items-center">
-                <a class="navbar-brand "><img src="./assets/img/logo.PNG" alt=""></a>
-                <ul class="d-flex align-items-center p-0 m-0">
-                  <li><a class="fc-1" href="./index.html">HOME</a></li>
-                  <li><a href="">pages</a></li>
-                  <li><a href="./service-details.html">services</a></li>
-                  
-                  <li><a href="./blog.html">blog</a></li>
-                  <li><a href="./contact-us.html">Contact Us </a></li>
-                  <li><a href=""><i class="bi bi-list fs-1"></i></a></li>
-                 
-                </ul>
-              </div>
-            </nav>
-    
-          </div> <!-- /.container -->
-    
-        </div> <!-- /.top-primary-nav -->
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/banner.png" class="d-block w-100" alt="...">
-        <div class="overlay w-100"></div> <!-- /.overlay -->
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="fs-8">Contact Us</h1>
-                <p class="fs-6">Home / Contact Us</p>
-              </div>
-            </div>
+  
+        </div> <!-- /.container -->
+  
+      </div> <!-- /.top-primary-nav -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/banner.png" class="d-block w-100" alt="...">
+      <div class="overlay w-100"></div> <!-- /.overlay -->
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="fs-8">Contact Us</h1>
+              <p class="fs-6">Home / Contact Us</p>
             </div>
           </div>
-          
+          </div>
         </div>
-    </header><!-- /.header -->
+        
+      </div>
+      
+      </header><!-- /.header -->
 
-    <main class="main">
+    <main class="main overflow-hidden">
         
 
             <div class="contact-wrapper">
@@ -116,7 +150,7 @@
 
     </main><!-- /.main -->
 
-    <footer class="footer bg-main text-white">
+    <footer class="footer bg-main text-white overflow-hidden">
         <div class="row align-items-center ">
           <div class="col-md-2 py-4">
           <img src="./assets/img/footer/end.PNG" alt="">

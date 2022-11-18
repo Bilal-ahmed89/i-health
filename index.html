@@ -12,7 +12,7 @@
   </head>
   
   <body>
-    <header class="header">
+    <header class="header overflow-hidden" id="head">
     <div class="top-secondary-nav bg-main">
       <div class="container">
       <nav class="navbar navbar-light bg-main ">
@@ -30,12 +30,46 @@
             <a class="navbar-brand "><img src="./assets/img/logo.PNG" alt=""></a>
             <ul class="d-flex align-items-center p-0 m-0">
               <li><a class="fc-1" href="./index.html">HOME</a></li>
-              <li><a href="">pages</a></li>
-              <li><a href="./service-details.html">services</a></li>
-              <li><a href="./blog.html">blog</a></li>
-              <li><a href="./contact-us.html">Contact Us </a></li>
-              <li class="me-0"><a href=""><i class="bi bi-list fs-1"></i></a></li>
-             
+              <li><a href="">PAGES</a></li>
+              <li class="display"><a href="./service-details.html">services</a></li>
+              <li class="display"><a href="./blog.html">blog</a></li>
+              <li class="display"><a href="./contact-us.html">Contact Us </a></li>
+              <li class="me-0"><a class="btn btn-primary bg-transparent border-0 p-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="bi bi-list fs-1"></i>
+              </a></li>
+              
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                
+                <div class="offcanvas-body py-0">
+                  <div class="side-nav-bar w-100 bg-light ff-1" id="sidebar">
+                    <ul class="px-2">
+                      <li><h4 class="bg-main text-white p-2 m-0 d-flex align-items-center">Description <span><button type="button" class="btn-close text-reset ms-6 w-0" data-bs-dismiss="offcanvas" aria-label="Close"></button></span> </h4></li>
+                      
+                      <li><a href="">IHealth and Hospital Network</a></li>
+                      <li><a href="">Vision and Mission</a></li>
+                      <li><a href="">Core leadership</a></li>
+                      <li><a href="">How We Started</a></li>
+                      
+                    </ul>
+                    <ul class="px-2">
+                      <li><h4 class="bg-main text-white p-2 m-0">Our Faculty</h4></li>
+                      <li><a href="">Our Stories</a></li>
+                      <li><a href="">Our International Patners</a></li>
+                      <li><a href="">Annual Report</a></li>
+                      <li><a href="">Our Research</a></li>
+                    </ul>
+                    <ul class="px-2">
+                      <li><h4 class=" bg-main text-white p-2 m-0">Public health</h4></li>
+                      <li><a href="">Public Health Initiatives</a></li>
+                      <li><a href="">Primary Care Program</a></li>
+                      <li><a href="">Blood Center</a></li>
+                      
+                    </ul>
+                    </div><!-- /.side-nav-bar -->
+                </div>
+              </div>
+              
+              
             </ul>
           </div>
         </nav>
@@ -43,9 +77,10 @@
       </div> <!-- /.container -->
 
     </div> <!-- /.top-primary-nav -->
+    
     </header><!-- /.header -->
 
-    <main class="main">
+    <main class="main overflow-hidden">
       <div class="banner position-relative">
       
 
@@ -56,48 +91,40 @@
             
            
             <div class="carousel-caption d-none d-md-block text-start">
-              <h1 class="fw-bold fs-8 text-dark">We are Commited to Your</h1>
-             <h1 class="fw-bold fc-1 fs-8">Best Health</h1>
+              <h1 class=" fs-8 text-dark">We are Commited to Your</h1>
+             <h1 class="fc-1 fs-8">Best Health</h1>
              <p class="text-dark">lorem ipsum is simple dummy text of the printing  typesetting industry.<br>lorem iosum
              Lorem ipsum has  been the industry's standard dummy <br>text
              ever since  the 1500s when the unknown.</p>
-             <button class="border-0 bg-green text-white p-12 rounded-pill me-2">Book an Appointment</button>
+             <a href="#appointment"><button class="border-0 bg-green text-white p-12 rounded-pill me-2">Book an Appointment</button></a>
              <button class="border-0 bg-main text-white p-12 rounded-pill ms-2">Play Now</button>
             </div>
           </div>
           </div>
         </div>
-        <!-- <img class="w-100" src="./assets/img/banner-2.jpg" alt=""> -->
-      <!-- <div class="appointment-wrapper position-absolute d-none d-md-block carousel-caption">
-       <h1 class="fw-bold fs-8 text-dark">We are Commited to Your</h1>
-       <h1 class="fw-bold fc-1 fs-8">Best Health</h1>
-       <p class="text-dark">lorem ipsum is simple dummy text of the printing  typesetting industry.<br>lorem iosum
-        Lorem ipsum has  been the industry's standard dummy <br>text
-        ever since  the 1500s when the unknown.</p>
-       <button class="border-0 bg-green text-white p-12 rounded-pill me-2">Book an Appointment</button>
-       <button class="border-0 bg-main text-white p-12 rounded-pill ms-2">Play Now</button>
-      </div>/.appointment-wrapper -->
+    
 
 
       <div class="info-wrapper ff-1 d-flex w-100 position-absolute top-100 start-50 translate-middle justify-content-center d-none d-lg-flex">
-       <button class="border-0 bg-grey p-4 d-flex align-items-center me-2">
+       
+        <a href="./contact-us.html" target="_blank" class="t-none"> <button class="border-0 bg-grey p-4 d-flex align-items-center me-2">
         <i class="bi bi-telephone-fill me-2 fs-3 fc-1"></i>
         <span>
         <p>Give us a Call</p>
         <h4>1-888-1234-567</h4>
-        </span></button>
-       <button class="border-0 p-4 d-flex align-items-center mx-1 bg-main text-white">
+        </span></button></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVWChgZZWgfVwgFfgHQTRbWrHXmpFrJBpMHWngzxXWkmxvwvgnJbbQlhSHjdHHxhGFTTdJ" target="_blank" class="t-none"><button class="border-0 p-4 d-flex align-items-center mx-1 bg-main text-white">
         <i class="bi bi-envelope me-2 fs-3"></i>
         <span>
         <p>Send us a Message</p>
         <h4>info@yrmail.com</h4>
-        </span></button>
-       <button class="border-0 bg-grey p-4 d-flex align-items-center ms-2">
+        </span></button></a>
+        <a href="https://www.google.com/maps/search/03+suitland+suit/@33.2605859,4.1896605,3z" target="_blank" class="t-none"><button class="border-0 bg-grey p-4 d-flex align-items-center ms-2">
         <i class="bi bi-geo-alt me-2 fs-3 fc-1"></i>
         <span>
         <p>Visit our Location</p>
         <h4>03 SuitLand Suit</h4>
-        </span></button>
+        </span></button></a>
         
     
       
@@ -120,8 +147,9 @@
         <h3><span class="fc-1 ff-1">Routine Vaccines</span> Provided for Babies and Children</h3>
         <p class="fs-7 ff-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti doloremque ducimus ex temporibus maiores unde nostrum dolores quibusdam in libero commodi explicabo modi molestiae impedit sed, recusandae veritatis officiis, alias quae voluptatem repellendus odit. Aliquam expedita enim iste necessitatibus magnam at commodi</p>
         <p class="fs-7 ff-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti doloremque ducimus ex temporibus maiores unde nostrum dolores quibusdam in libero commodi explicabo modi molestiae impedit sed, recusa</p>
-        <button class="border-0 bg-green text-white p-12 rounded-pill me-2">Contact Us!</button>
-       <button class="border-0 bg-main text-white p-12 rounded-pill ms-2">Read more</button>
+        <p class="fs-7 ff-1 more-text" id="extraText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti doloremque ducimus ex temporibus maiores unde nostrum dolores quibusdam in libero commodi explicabo modi molestiae impedit sed,</p>
+        <a href="./contact-us.html" class="t.none"><button class="border-0 bg-green text-white p-12 rounded-pill me-2">Contact Us!</button></a>
+       <button class="border-0 bg-main text-white p-12 rounded-pill ms-2" id="moreText">Read more</button>
       </div><!-- /.des-box -->
       </div><!-- /.col-md-6 -->
       </div><!-- /.row -->
@@ -145,13 +173,18 @@
         </div><!-- /.col-md-6 -->
         <div class="col-md-6 mt-5 mb-5 position-relative">
          <img class=" w-100 h-50 rounded-3" src="./assets/img/doc-3.jpg" alt="">
-         <div class="play-btn d-flex align-items-center bg-green rounded-pill position-absolute start-0 translate-middle py-1 pe-2 ps-1 d-none d-md-flex">
+         <div class="play-btn d-flex align-items-center bg-green rounded-pill position-absolute start-0 translate-middle py-1 pe-2 ps-1 d-none d-md-flex cursor" id="play">
           <i class="bi bi-play-fill fc-1 bg-light fs-5 rounded-circle me-1"></i>
           <p class="m-0 fs-7 text-white">VIDEO PLAY</p>
-         </div> <!-- /.play-btn -->
+          </div> <!-- /.play-btn -->
+         
         </div><!-- /.col-md-6 -->
 
         </div><!-- /.row -->
+        <div class="video " id="video">
+          <iframe width="65%" height="480" src="https://www.youtube.com/embed/j7d8xXCrvn0" title="Visiting the Doctor 🤒 English Conversation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+          <i class="bi bi-x-circle ms-6 cursor" id="close"></i>
+        </div><!-- /.video -->
 
 
       </div><!-- /.mission-wrapper -->
@@ -249,7 +282,7 @@
                 <h6 style="text-align: initial; font-size: 14px;">Dr.Cruz Pearlman</h6>
                 <p style="text-align: initial; font-size: 12px; margin: 0;">Cardiologist</p>
               </span>
-              <a href=""><button class="rounded-pill">VEIW PROFILE</button></a>
+              <a href="https://oladoc.com/pakistan/rawalpindi/dr/cardiologist/omer-aziz-mirza/402579" target="_blank"><button class="rounded-pill">VEIW PROFILE</button></a>
             </div>
            
         </div><!-- /.profile-card -->
@@ -265,7 +298,7 @@
                 <h6 style="text-align: initial; font-size: 14px;">Dr.Steven Hargis</h6>
                 <p style="text-align: initial; font-size: 12px; margin: 0;">Dermatologist</p>
               </span>
-              <a href=""><button class="rounded-pill">VEIW PROFILE</button></a>
+              <a href="https://oladoc.com/pakistan/islamabad/dr/dermatologist/maimoona-mumtaz/679775" target="_blank"><button class="rounded-pill">VEIW PROFILE</button></a>
             </div>
            
         </div><!-- /.profile-card -->
@@ -281,7 +314,7 @@
                 <h6 style="text-align: initial; font-size: 14px;">Leo Crawford</h6>
                 <p style="text-align: initial; font-size: 12px; margin: 0;">Pediatrician</p>
               </span>
-              <a href=""><button class="rounded-pill">VEIW PROFILE</button></a>
+              <a href="https://oladoc.com/pakistan/islamabad/dr/pediatrician/asma-haroon/1302535" target="_blank"><button class="rounded-pill">VEIW PROFILE</button></a>
             </div>
            
         </div><!-- /.profile-card -->
@@ -294,7 +327,7 @@
       </div><!-- /.container -->
      </div><!-- /.staff-wrapper -->
 
-     <div class="appointment-wrapper mt-8 bg-grey ff-1">
+     <div class="appointment-wrapper mt-8 bg-grey ff-1" id="appointment">
       <div class="container px-6">
        <div class="row">
         <div class="col-md-7 d-flex justify-content-center">
@@ -325,7 +358,7 @@
          </div><!-- /.health-info -->
          <div class="contact-details d-flex ms-4">
           <div class="phone-details d-flex me-5 mb-3">
-            <i class="bi bi-telephone-fill fs-4 me-2"></i>
+            <a href="./contact-us.html" target="_blank"><i class="bi bi-telephone-fill fs-4 me-2"></i></a>
             <div class="phone">
              <h3 class="fs-4 fw-bold">Phone</h3>
              <p class="m-0 fs-7">+123 456 7890</p>
@@ -333,7 +366,7 @@
             </div><!-- /.phone -->
           </div> <!-- /.phone-details -->
           <div class="email-details d-flex ms-2">
-            <i class="bi bi-envelope-paper-heart fs-4 me-2"></i>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVWChgZZWgfVwgFfgHQTRbWrHXmpFrJBpMHWngzxXWkmxvwvgnJbbQlhSHjdHHxhGFTTdJ" target="_blank"><i class="bi bi-envelope-paper-heart fs-4 me-2"></i></a>
             <div class="email">
               <h3 class="fs-4 fw-bold">Email</h3>
               <p class="m-0 fs-7">info@gmail.com</p>
@@ -342,7 +375,7 @@
           </div> <!-- /.email-details -->
          </div><!-- /.contact-details -->
          <div class="address-details d-flex ms-4">
-          <i class="bi bi-geo-alt-fill fs-4 me-2"></i>
+          <a href="https://www.google.com/maps/search/03+suitland+suit/@33.2605859,4.1896605,3z" target="_blank"><i class="bi bi-geo-alt-fill fs-4 me-2"></i></a>
           <div class="address">
           <h3 class="fs-4 fw-bold">Address Information</h3>
           
@@ -425,7 +458,7 @@
                 <p class="bg-green py-2 px-3 text-white rounded-pill fs-9 m-0">13 May, 2022</p>
                 </div><!-- /.date -->
               </div><!-- /.img-closer -->
-            <h4 class="text-center mt-3 fc-1">Different kind of heart attack</h4>
+            <a href="https://www.medicalnewstoday.com/articles/151444" target="_blank" class="t-none"><h4 class="text-center mt-3 fc-1">Different kind of heart attack</h4></a>
             <p class="fs-7 text-justify px-4">lorem ipsum is simple dummy text of the printing typesetting industry. lorem iosum has been the industry</p>
             </div><!-- /.article-card -->
   
@@ -438,7 +471,7 @@
                 <p class="bg-green py-2 px-3 text-white rounded-pill fs-9 m-0">13 May, 2022</p>
                 </div><!-- /.date -->
               </div><!-- /.img-closer -->
-            <h4 class="text-center mt-3 fc-1">Reduces your risk of death</h4>
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222361/" target="_blank" class="t-none"><h4 class="text-center mt-3 fc-1">Reduces your risk of death</h4></a>
             <p class="fs-7 text-justify px-4">lorem ipsum is simple dummy text of the printing typesetting industry. lorem iosum has been the industry</p>
             </div><!-- /.article-card -->
   
@@ -451,7 +484,7 @@
                 <p class="bg-green py-2 px-3 text-white rounded-pill fs-9 m-0">13 May, 2022</p>
                 </div><!-- /.date -->
               </div><!-- /.img-closer -->
-            <h4 class="text-center mt-3 fc-1">Calcium protect your bones</h4>
+              <a href="https://medlineplus.gov/ency/article/002062.htm" target="_blank" class="t-none"><h4 class="text-center mt-3 fc-1">Calcium protect your bones</h4></a>
             <p class="fs-7 text-justify px-4">lorem ipsum is simple dummy text of the printing typesetting industry. lorem iosum has been the industry</p>
             </div><!-- /.article-card -->
   
@@ -464,9 +497,10 @@
      
      </div><!-- /.container -->
      </div><!-- /.blog-wrapper -->
+     
     </main><!-- /.main -->
 
-    <footer class="footer bg-main text-white">
+    <footer class="footer bg-main text-white overflow-hidden">
     <div class="row align-items-center ">
       <div class="col-md-2 py-4">
       <img src="./assets/img/footer/end.PNG" alt="">
@@ -529,11 +563,15 @@
       </div><!-- /.col-md-2 -->
     </div><!-- /.row -->
 
-    <p class="text-center m-0 fs-7 pb-3">Copyright@2022 I health. Designed By BILAL</p>
+    <p class="text-center m-0 fs-7 pb-3 d-flex align-items-center justify-content-center">Copyright@2022 I health. Designed By BILAL <a href="#head" class="text-white"><i class="bi bi-chevron-up ms-6 cursor fs-3"></i></a> </p>
     </footer><!-- /.footer -->
 
-  
+    
+    
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
