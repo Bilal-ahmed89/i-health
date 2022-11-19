@@ -2,32 +2,70 @@
 
 $(document).ready(function(){
 
-    $('#openBar').click(function(){
-        $('#sidebar').show();
-        
-    })
-
-    $('#closeBar').click(function(){
-        $('#sidebar').hide();
-       
-    })
+  
     
     $('#moreText').click(function(){
-        $('#extraText').toggle();
+        $('#extraText').animate({
+            height: 'toggle'
+        });
        
         
     })
-    $('#play').click(function(){
-        $('#video').show();
-        
-    })
-    $('#close').click(function(){
-        $('#video').hide();
-        
-    })
     
-    }
+    $('#play').click(function(){
+        $('#video').animate({
+            height: 'toggle'
+        });
+        
+    })
 
+    $('#close').click(function(){
+        $('#video').animate({
+            height : 'hide'
+        });
+        
+    })   
+
+    $('#close-msg').click(function(){
+        $('#confirm-msg').animate({
+            height : 'hide'
+        });
+    });
+     
+    $('#booking').on('click', function(){
+        
+        $('#confirm-msg').animate({
+            height: 'toggle'
+        });
+
+
+        let name = $('#name').val();
+        let email = $('#email').val();
+        let subject = $('#subject').val();
+        let message = $('#message').val();
+   
+        let person = {
+           name:name,
+           email:email,
+           subject:subject,
+           message:message
+   
+        }
+         
+
+
+         localStorage.setItem('appointment', JSON.stringify(person))
+
+        $('#name').val('');
+        $('#email').val('');
+        $('#subject').val('');
+        $('#message').val('');
+     })
+    
+     
+
+    }
+   
 
 
 )
