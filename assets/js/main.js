@@ -31,7 +31,7 @@ $(document).ready(function(){
     //------------------------------//
     // saving in local FUNCTION//
 
-    let persons = [];
+    let persons = JSON.parse(localStorage.getItem('appointment'));
     
     $('#booking').on('click', function(){
         
@@ -39,7 +39,7 @@ $(document).ready(function(){
             height: 'toggle'
         });
 
-
+        
         let name = $('#name').val();
         let email = $('#email').val();
         let subject = $('#subject').val();
@@ -52,8 +52,10 @@ $(document).ready(function(){
            message:message
    
         }
+
+        persons.push(person)
          
-         localStorage.setItem('appointment', JSON.stringify(person))
+         localStorage.setItem('appointment', JSON.stringify(persons))
 
         $('#name').val('');
         $('#email').val('');
