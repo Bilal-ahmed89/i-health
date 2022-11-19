@@ -86,6 +86,9 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
+.overflow-x{
+    overflow-x: hidden;
+}
 .cursor{
     cursor: pointer;
 }
@@ -398,9 +401,10 @@ background-color: rgb(234, 238, 238);
    /* media queries */
   
 @media (max-width: 575.98px) { 
-    .center{
-        justify-content: center!important;
+    .main{
+        overflow: visible!important;
     }
+   
  }
 
 
@@ -425,9 +429,7 @@ background-color: rgb(234, 238, 238);
     .services-wrapper .container .row .col-md-4{
         margin-bottom: 12px;
     }
-    .main{
-        overflow: visible!important;
-    }
+    
     .top-primary-nav .container .navbar .container-fluid ul:nth-child(3){
        display: none!important;
     }

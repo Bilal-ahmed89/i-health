@@ -1,6 +1,7 @@
 .carousel-item .carousel-caption{
     transform: translate(-50%, -30%)!important;
     left: 50%!important;
+    
 }
 .carousel-inner{
     position: relative;
@@ -24,3 +25,12 @@
     color: white!important;
    
 }
+
+
+
+@media (min-width: 1399.98px) { 
+    .carousel-caption{
+        transform: translate(-50%, -50%)!important;
+        left: 50%!important;
+    }
+ }

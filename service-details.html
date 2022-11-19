@@ -14,7 +14,7 @@
     </head>
   <body>
     
-    <header class="header overflow-hidden">
+    <header class="header overflow-hidden" id="head">
       <div class="top-secondary-nav bg-main">
         <div class="container">
         <nav class="navbar navbar-light bg-main ">
@@ -32,7 +32,16 @@
               <a class="navbar-brand "><img src="./assets/img/logo.PNG" alt=""></a>
               <ul class="d-flex align-items-center p-0 m-0">
                 <li><a class="fc-1" href="./index.html">HOME</a></li>
-                <li><a href="">PAGES</a></li>
+                <li><div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle bg-transparent text-dark border-0 p-0 fs-7 fw-bold ff-1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    PAGES
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="./service-details.html">Services</a></li>
+                    <li><a class="dropdown-item" href="./blog.html">Blog</a></li>
+                    <li><a class="dropdown-item" href="./contact-us.html">Contact Us</a></li>
+                  </ul>
+                </div></li>
                 <li><a href="./service-details.html">services</a></li>
                 <li><a href="./blog.html">blog</a></li>
                 <li><a href="./contact-us.html">Contact Us </a></li>
@@ -288,70 +297,70 @@
     </main><!-- /.main -->
   
     <footer class="footer bg-main text-white overflow-hidden">
-        <div class="row align-items-center ">
-          <div class="col-md-2 py-4">
-          <img src="./assets/img/footer/end.PNG" alt="">
-          </div> <!-- /.col-md-2 -->
-          <div class="col-md-2 ps-5">
-           <h4 class="fs-5 mb-4">Departments</h4>
-           <ul>
-            <li>X-Ray </li>
-            <li>Children Care</li>
-            <li>Orthopedics</li>
-            <li>Nuclear Magnetic</li>
-            <li>Eye treatment</li>
-            <li>Surgery & Radiology</li>
+      <div class="row align-items-center ">
+        <div class="col-md-2 py-4 col-sm-6">
+        <img src="./assets/img/footer/end.PNG" alt="">
+        </div> <!-- /.col-md-2 -->
+        <div class="col-md-2 ps-5 col-sm-6">
+         <h4 class="fs-5 mb-4">Departments</h4>
+         <ul>
+          <li>X-Ray </li>
+          <li>Children Care</li>
+          <li>Orthopedics</li>
+          <li>Nuclear Magnetic</li>
+          <li>Eye treatment</li>
+          <li>Surgery & Radiology</li>
+         </ul>
+        </div><!-- /.col-md-2 -->
+        <div class="col-md-2 ps-5 col-sm-6">
+         <h4 class="fs-5 mb-4">Our Services</h4>
+         <ul>
+          <li>Surgery</li>
+          <li>Psychological</li>
+          <li>Cardiology</li>
+          <li>Orthopedics</li>
+          <li>Pediaric</li>
+          <li>Anesthesiology</li>
+         </ul>
+        </div><!-- /.col-md-2 -->
+        <div class="col-md-2 ps-5 col-sm-6">
+         <h4 class="fs-5 mb-4">Quick Links</h4>
+         <ul>
+          <li>Make Appointments</li>
+          <li>Before & After</li>
+          <li>Customer Treatments</li>
+          <li>Our Doctors Team</li>
+          <li>Department Services</li>
+          <li>About our Clinic</li>
+         </ul>
+        </div><!-- /.col-md-2 -->
+        <div class="col-md-2 p-0 col-sm-6">
+        <div class="timings bg-white text-dark rounded-3">
+          <h5 class="p-4 pb-2 ps-3">Opening Hours</h5>
+          <div class="weekly-time d-flex">
+           <ul class="ms-3">
+            <li>Mon-Tue: </li>
+            <li>Wed-Thu:</li>
+            <li>Fry:</li>
+            <li class="border-0">Sun:</li>
            </ul>
-          </div><!-- /.col-md-2 -->
-          <div class="col-md-2 ps-5">
-           <h4 class="fs-5 mb-4">Our Services</h4>
-           <ul>
-            <li>Surgery</li>
-            <li>Psychological</li>
-            <li>Cardiology</li>
-            <li>Orthopedics</li>
-            <li>Pediaric</li>
-            <li>Anesthesiology</li>
+           <ul class="me-3 text-end">
+            <li> 6:00AM-10:00PM</li>
+            <li>6:00AM-10:00PM</li>
+            <li>6:00AM-4:00PM</li>
+            <li class="border-0">Closed</li>
            </ul>
-          </div><!-- /.col-md-2 -->
-          <div class="col-md-2 ps-5">
-           <h4 class="fs-5 mb-4">Quick Links</h4>
-           <ul>
-            <li>Make Appointments</li>
-            <li>Before & After</li>
-            <li>Customer Treatments</li>
-            <li>Our Doctors Team</li>
-            <li>Department Services</li>
-            <li>About our Clinic</li>
-           </ul>
-          </div><!-- /.col-md-2 -->
-          <div class="col-md-2">
-          <div class="timings bg-white text-dark rounded-3">
-            <h5 class="p-4 pb-2 ps-3">Opening Hours</h5>
-            <div class="weekly-time d-flex">
-             <ul class="ms-3">
-              <li>Mon-Tue: </li>
-              <li>Wed-Thu:</li>
-              <li>Fry:</li>
-              <li class="border-0">Sun:</li>
-             </ul>
-             <ul class="me-3 text-end">
-              <li> 6:00AM-10:00PM</li>
-              <li>6:00AM-10:00PM</li>
-              <li>6:00AM-4:00PM</li>
-              <li class="border-0">Closed</li>
-             </ul>
-            </div><!-- /.weekly-time -->
-          </div><!-- /.timings -->
-          </div><!-- /.col-md-2 -->
-    
-          <div class="col-md-2 ">
-          <img src="./assets/img/footer/end.PNG" alt="" class="">
-          </div><!-- /.col-md-2 -->
-        </div><!-- /.row -->
-    
-        <p class="text-center m-0 fs-7 pb-3">Copyright@2022 I health. Designed By BILAL</p>
-    </footer><!-- /.footer -->
+          </div><!-- /.weekly-time -->
+        </div><!-- /.timings -->
+        </div><!-- /.col-md-2 -->
+  
+        <div class="col-md-2 col-sm-6">
+        <img src="./assets/img/footer/end.PNG" alt="" class="">
+        </div><!-- /.col-md-2 -->
+      </div><!-- /.row -->
+  
+      <p class="text-center m-0 fs-7 pb-3 d-flex align-items-center justify-content-center">Copyright@2022 I health. Designed By BILAL <a href="#head" class="text-white"><i class="bi bi-chevron-up ms-6 cursor fs-3"></i></a> </p>
+  </footer><!-- /.footer -->
 
    
 
