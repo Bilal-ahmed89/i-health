@@ -114,7 +114,7 @@
    cursor:pointer;
 }
 .more-text{
-    display:none;
+    display: none;
 }
 .top-primary-nav ul li a{
 text-decoration: none;
@@ -130,6 +130,23 @@ left: 18%;
 font-family: 'Mukta', sans-serif;
 text-align: initial!important;
 }
+.appointment-made{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    inset: 0;
+    display: none;
+}
+.appointment-made .appreciation-message{
+    color:black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    background-color:rgb(103 199 178);;
+
+}
+   
 .mission-wrapper .video{
     background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
@@ -369,9 +386,7 @@ font-size: 36px;
 margin: 12px;
 background-color: rgb(234, 238, 238);
 }
-.side-nav-bar ul li h4 i{
-    cursor:pointer;
-}
+
 .side-nav-bar ul li a{
  text-decoration: none;
  color: black;

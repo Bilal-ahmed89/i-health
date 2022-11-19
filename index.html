@@ -337,14 +337,14 @@
 
         
         <div class="person-details">
-         <input type="text" placeholder="Your Name">
-         <input type="text" placeholder="Your Email">
-         <input type="text" placeholder="Your Subject ">
+         <input type="text" placeholder="Your Name" id="name">
+         <input type="text" placeholder="Your Email" id="email">
+         <input type="text" placeholder="Your Subject" id="subject">
          <p class="fs-7">All Fields are Obligatory</p>
         </div><!-- /.person-details -->
         <div class="comment-box">
-         <input type="text" placeholder="Your Message">
-         <button class="border-0 bg-green text-white rounded-pill me-2 w-90  py-2 fs-7 ">MAKE AN APPOINTMENT</button>
+         <input type="text" placeholder="Your Message" id="message">
+         <button class="border-0 bg-green text-white rounded-pill me-2 w-90  py-2 fs-7" id="booking">MAKE AN APPOINTMENT</button>
         </div><!-- /.comment-box -->
         </div><!-- /.appointment-box -->
       </div><!-- /.detail-box -->
@@ -385,6 +385,15 @@
         </div><!-- /.info-box -->
         </div><!-- /.col-md-5 -->
        </div> <!-- /.row -->
+
+       <div class="appointment-made" id="confirm-msg">
+        <div class="appreciation-message">
+        <h1 class="text-center fw-bold mb-3 d-flex align-items-center">CONGRATULATIONS!<i class="bi bi-x-circle ms-4 fs-3 cursor" id="close-msg"></i></h1>
+        <p class="text-center mb-1">YOUR APPOINTMENT HAS BEEN MADE</p>
+        <p class="text-center">TIME: MONDAY, 21st NOV 2022, 7:00 PM</p>
+
+        </div><!-- /.appreciation-message -->
+       </div> <!-- /.appointment-made -->
       </div><!-- /.container -->
      </div><!-- /.appointment-wrapper -->
      
