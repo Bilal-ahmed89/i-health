@@ -9,29 +9,30 @@ $(document).ready(function(){
             height: 'toggle'
         });
        
-        
     })
-    
+     //------------------------------//
     $('#play').click(function(){
         $('#video').animate({
             height: 'toggle'
         });
-        
     })
-
+     //------------------------------//
     $('#close').click(function(){
         $('#video').animate({
             height : 'hide'
         });
-        
     })   
-
+     //------------------------------//
     $('#close-msg').click(function(){
         $('#confirm-msg').animate({
             height : 'hide'
         });
     });
-     
+    //------------------------------//
+    // saving in local FUNCTION//
+
+    let persons = [];
+    
     $('#booking').on('click', function(){
         
         $('#confirm-msg').animate({
@@ -52,8 +53,6 @@ $(document).ready(function(){
    
         }
          
-
-
          localStorage.setItem('appointment', JSON.stringify(person))
 
         $('#name').val('');
