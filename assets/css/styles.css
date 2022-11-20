@@ -189,7 +189,7 @@ text-align: initial!important;
     position: absolute;
     top: 29%;
     right: 7%;
-    width: 350px;
+    
 }
 .des-box p{
     text-align: justify;
@@ -233,14 +233,13 @@ font-weight: bold;
 .card-body{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    justify-content: space-between;
 }
 .card-body a button{
-    margin-left: 40px;
     padding: 12px;
     font-size: 12px;
-    width: 75%;
     border: 0;
-    color: green;
+    color: rgb(75, 197, 75)
 }
 .doctors-section .row .col-md-3{
     margin: 0 22px;
