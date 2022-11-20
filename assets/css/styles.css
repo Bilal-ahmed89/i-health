@@ -427,8 +427,12 @@ background-color: rgb(234, 238, 238);
     .top-primary-nav .container .navbar .container-fluid ul:nth-child(3){
        display: none!important;
     }
-   
- }
+   .des-box a button{
+    margin-bottom: 12px!important;
+   }
+ 
+
+}
 
 
 @media (max-width: 1199.98px) { 
